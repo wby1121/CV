@@ -1193,8 +1193,8 @@ only screen and (max-width: 576px) {
     width: 100%;
     height: 100%;
     background: var(--color-primary);
-    -webkit-mask: url(images/asset-star.svg) center/1.5rem 1.5rem no-repeat;
-    mask: url(images/asset-star.svg) center/1.5rem 1.5rem no-repeat;
+    -webkit-mask: url(/CV/images/asset-star.svg) center/1.5rem 1.5rem no-repeat;
+    mask: url(/CV/images/asset-star.svg) center/1.5rem 1.5rem no-repeat;
     transition: transform .8s cubic-bezier(.55, .055, .675, .19);
     will-change: transform;
     content: ""
@@ -1984,8 +1984,8 @@ only screen and (max-width: 576px) {
 }
 
 .s-my-way.astro-fiibiggq .a-object.astro-fiibiggq:before {
-    -webkit-mask: url(images/sprite-vanish.png);
-    mask: url(images/sprite-vanish.png)
+    -webkit-mask: url(/CV/images/sprite-vanish.png);
+    mask: url(/CV/images/sprite-vanish.png)
 }
 
 .s-my-way.astro-fiibiggq .a-object.astro-fiibiggq.is-waiting {
@@ -2111,7 +2111,7 @@ only screen and (max-width: 576px) {
     display: block;
     width: 100%;
     height: 100%;
-    background: url(images/asset-star.svg) center/cover no-repeat;
+    background: url(/CV/images/asset-star.svg) center/cover no-repeat;
     content: ""
 }
 
@@ -2242,8 +2242,8 @@ only screen and (max-width: 576px) {
 
 .s-my-way.astro-fiibiggq .a-object.astro-fiibiggq.is-vanishing,
 .s-my-way.astro-fiibiggq .a-object.astro-fiibiggq.is-vanishing .a__inner.astro-fiibiggq {
-    -webkit-mask: url(images/sprite-vanish.png) left/3000% 100%;
-    mask: url(images/sprite-vanish.png) left/3000% 100%;
+    -webkit-mask: url(/CV/images/sprite-vanish.png) left/3000% 100%;
+    mask: url(/CV/images/sprite-vanish.png) left/3000% 100%;
     animation: vanish .75s steps(29, end) 1 both
 }
 
@@ -3017,7 +3017,7 @@ summary {
     font-family: Bigger Display;
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/Bigger-Display.woff2) format("woff2");
+    src: url(/CV/fonts/Bigger-Display.woff2) format("woff2");
     font-display: swap;
     text-rendering: optimizelegibility
 }
@@ -3026,7 +3026,7 @@ summary {
     font-family: Editorial New;
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/PPEditorialNew-Regular.woff2) format("woff2");
+    src: url(/CV/fonts/PPEditorialNew-Regular.woff2) format("woff2");
     font-display: swap;
     text-rendering: optimizelegibility
 }
@@ -3035,7 +3035,7 @@ summary {
     font-family: Editorial New;
     font-style: normal;
     font-weight: 200;
-    src: url(fonts/PPEditorialNew-Ultralight.woff2) format("woff2");
+    src: url(/CV/fonts/PPEditorialNew-Ultralight.woff2) format("woff2");
     font-display: swap;
     text-rendering: optimizelegibility
 }
@@ -3044,7 +3044,7 @@ summary {
     font-family: Fraktion Mono;
     font-style: normal;
     font-weight: 400;
-    src: url(fonts/PPFraktionMono-Regular.woff2) format("woff2");
+    src: url(/CV/fonts/PPFraktionMono-Regular.woff2) format("woff2");
     font-display: swap;
     text-rendering: optimizelegibility
 }
@@ -3053,7 +3053,7 @@ summary {
     font-family: Fraktion Mono;
     font-style: normal;
     font-weight: 700;
-    src: url(fonts/PPFraktionMono-Bold.woff2) format("woff2");
+    src: url(/CV/fonts/PPFraktionMono-Bold.woff2) format("woff2");
     font-display: swap;
     text-rendering: optimizelegibility
 }
